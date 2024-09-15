@@ -1,0 +1,17 @@
+.body{
+    background-color: rgb(215, 223, 223);
+}
+.head{
+    background-color:rgb(206, 227, 227) ;
+}
+.container .row img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+.container .row{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 100px;
+}

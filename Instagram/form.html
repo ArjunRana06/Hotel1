@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            background-color: rgb(184, 212, 209);
+        }
+
+        .container {
+            height: auto;
+            width: 70%;
+            margin-left: 10%;
+            padding: 20px;
+            margin-top: 4%;
+            border: 4px solid rgb(232, 171, 130);
+            background-color: rgb(218, 234, 234);
+            line-height: 30px;
+        }
+
+        .container h1 {
+            text-align: center;
+            color: rgb(4, 147, 30);
+        }
+
+        .form {
+            display: flex;
+            font-size: 25px;
+            gap: 30%;
+        }
+
+        .part1 {
+            margin-left: 5%;
+        }
+
+        .submit {
+            margin-top: 50px;
+            font-size: 25px;
+            text-align: center;
+        }
+        .submit label{
+
+        }
+
+        .submit textarea {
+            width: 500px;
+        }
+
+        .submit button {
+            font-size: 25px;
+            border: 2px solid rgb(215, 228, 236);
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> BCJ Admission Form :</h1>
+        <div class="form">
+            <div class="part1">
+                <form action="" class="input">
+                    <label for="First name">First Name: </label>
+                    <input type="Name"><br>
+
+                    <label for="Number">Number: </label>
+                    <input type=""><br>
+
+                    <label for="E-mail">Email</label>
+                    <input type="E-mail"> <br>
+
+                    <div style="display: flex;">
+                        <div><label for="Course">Course: </label><br></div>
+
+                        <div>
+                            <input type="checkbox">
+                            <label for="JS">JS</label><br>
+                            <input type="checkbox">
+                            <label for="FS">FS</label><br>
+                            <input type="checkbox">
+                            <label for="Frontend">Frontend</label><br>
+                            <input type="checkbox">
+                            <label for="Backend">Backend</label><br>
+                        </div>
+                    </div>
+
+
+                    <label for="">Address</label>
+                    <input type="Address"><br>
+
+                    <label for="">Date of birth: </label>
+                    <input type="date" name="" id="">
+                </form>
+            </div>
+            <div class="part2">
+                <form action="" class="input">
+                    <label for="Last name">Last name: </label>
+                    <input type="Last Name"><br>
+
+                    <div style="display: flex;">
+                        <div><label for="Gender">Gender: </label><br></div>
+
+                        <div>
+                            <input type="radio">
+                            <label for="Male">Male</label><br>
+                            <input type="radio">
+                            <label for="Male">Female</label><br>
+                            <input type="radio">
+                            <label for="Male">Other.</label><br>
+                        </div>
+                    </div>
+
+
+                    <div style="display: flex;">
+                        <div> <label for="Course">Subject: </label><br></div>
+
+                        <div>
+                            <input type="checkbox">
+                            <label for="JS">HTML</label><br>
+                            <input type="checkbox">
+                            <label for="FS">CSS</label><br>
+                            <input type="checkbox">
+                            <label for="Frontend">JS</label><br>
+                            <input type="checkbox">
+                            <label for="Backend">Ract</label><br>
+                            <input type="checkbox">
+                            <label for="Frontend">PHP</label><br>
+                            <input type="checkbox">
+                            <label for="Backend">MySql</label><br>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="submit">
+            <label for="">Comment: </label>
+            <textarea name="" id=""></textarea><br>
+            <button type="button">Submit</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
